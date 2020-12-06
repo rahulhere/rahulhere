@@ -1,0 +1,15 @@
+.NavItem {
+  margin: 0 1rem;
+}
+
+.NavItem a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.NavItem .active {
+  color: rgb(255, 68, 0);
+}

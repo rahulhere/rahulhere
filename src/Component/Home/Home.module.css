@@ -1,0 +1,389 @@
+.Home .homeSection {
+  max-width: 950px;
+  margin: auto;
+  color: #7c8085;
+}
+
+.Home .head {
+  position: relative;
+  background-color: #000;
+  min-height: 100vh;
+  padding-top: 3rem;
+  z-index: 0;
+  color: rgb(236, 236, 236);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Home .head > img {
+  margin: auto;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  width: 10rem;
+  animation: logoAnim 25s linear infinite;
+  transition: width 0.5s;
+}
+
+.Home .head h1 {
+  font-family: "Merienda", cursive;
+  font-size: 6rem;
+  margin: -1rem 0 1rem;
+  transition: font-size 0.5s;
+}
+
+.Home .head h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(214, 214, 214);
+  font-family: "Libre Baskerville", serif;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+  transition: font-size 0.5s;
+}
+
+.Home .head .links {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Home .head .links a {
+  font-size: 1rem;
+  display: inline-block;
+  background: #11abb0;
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 0;
+  min-width: 10rem;
+  border-radius: 0px;
+  margin: 0 1rem;
+  font-weight: 600;
+  transition: padding 0.5s, max-width 0.5s;
+}
+
+.Home .head .links a i {
+  margin-right: 3px;
+}
+
+.Home .head .links .github {
+  background: #11abb0;
+}
+
+.Home .head .links .linkedIn {
+  background: #0054a5;
+}
+
+.Home .head .downArrow {
+  cursor: pointer;
+  padding: 1rem 0;
+  margin: auto;
+  margin-bottom: 2rem;
+  background-color: #7c8085;
+  border-radius: 100%;
+  transition: background-color 0.4s;
+  width: 3rem;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+.Home .head .downArrow:hover {
+  background-color: #0f9095;
+}
+
+.Home .head .downArrow i {
+  color: white;
+  transform: translate(0, -0.75rem);
+}
+
+@keyframes logoAnim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Home .aboutMe {
+  background-color: #000524;
+  padding: 4rem 0;
+}
+
+.Home .aboutMe div.homeSection {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.6fr 5fr;
+  color: white;
+}
+
+.Home .aboutMe .imgDiv img {
+  max-width: 100%;
+  width: 50%;
+  border-radius: 100%;
+  margin-left: 1rem;
+}
+
+.Home .aboutMe .textDiv {
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+
+.Home .aboutMe h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.Home .aboutMe p {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 2;
+  margin-top: 0.5rem;
+}
+
+.Home .aboutMe .textDiv .contactResumeDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.Home .aboutMe .textDiv .contactDetails h4 {
+  margin-bottom: 0.4rem;
+}
+
+.Home .aboutMe .textDiv .contactDetails p {
+  margin: 0;
+}
+
+.Home .aboutMe .textDiv .contactResumeDiv .resume a {
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+  background: #444;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 0;
+  min-width: 13rem;
+  border-radius: 0px;
+  margin: 0 1rem;
+  font-weight: 600;
+  transition: color 0.5s, background-color 0.5s;
+  margin-top: 0.5rem;
+}
+
+.Home .aboutMe .textDiv .contactResumeDiv .resume a:hover {
+  color: #444;
+  background-color: #fff;
+}
+
+.Home .aboutMe .textDiv .contactResumeDiv .resume a i {
+  margin-right: 2px;
+}
+
+.Home .skills {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.Home .skills hr {
+  margin-bottom: 3rem;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.Home .skills > div {
+  display: grid;
+  grid-template-columns: 1.6fr 5fr;
+}
+
+.Home .skills > div .textDiv {
+  padding-right: 5rem;
+}
+
+.Home .skills > div .textDiv > div {
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.Home .skills > div h2 {
+  margin: 0.5rem 0;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #313131;
+  border-bottom: 4px solid #0054a5;
+}
+
+.Home .skills > div h3 {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: #313131;
+}
+
+.Home .skills > div p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #838c95;
+  margin: 0;
+  line-height: 2;
+}
+
+.Home .skills > div .subHeading {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.Home .skills > div .subHeading + span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.Home .skills > div .techImages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+  column-gap: 0.5rem;
+  row-gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.Home .skills > div .techImages img {
+  width: 100%;
+}
+
+.Home .projects {
+  background-color: #ebeeee;
+  padding-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.Home .projects h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #95a3a3;
+  text-align: center;
+}
+
+.Home .projects .anchorDiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  margin-top: 3rem;
+}
+
+.Home .projects a {
+  text-decoration: none;
+  color: inherit;
+}
+.Home .projects .mainDiv {
+  position: relative;
+}
+.Home .projects .mainDiv img {
+  width: 100%;
+  display: block;
+}
+.Home .projects .textDiv {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 1rem;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.Home .projects a:hover .textDiv {
+  opacity: 1;
+}
+
+.Home .projects .textDiv h3 {
+  color: white;
+  margin: 0;
+  margin-bottom: 0.3rem;
+}
+.Home .projects .textDiv p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: rgb(197, 197, 197);
+}
+
+@media (max-width: 1200px) {
+  .Home .homeSection {
+    max-width: 950px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .Home .homeSection {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .Home .homeSection {
+    max-width: 730px;
+  }
+}
+
+@media (max-width: 760px) {
+  .Home .homeSection {
+    max-width: 560px;
+  }
+
+  .Home .head > img {
+    width: 7rem;
+  }
+
+  .Home .head h1 {
+    font-size: 4rem;
+  }
+
+  .Home .head h3 {
+    font-size: 1.2rem;
+  }
+
+  .Home .head .links a {
+    padding: 0.8rem 0;
+    min-width: 8rem;
+  }
+
+  .Home .aboutMe div.homeSection {
+    grid-template-columns: 1fr;
+  }
+
+  .Home .aboutMe .imgDiv img {
+    display: block;
+    width: 8rem;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  .Home .aboutMe .textDiv {
+    padding: 0;
+  }
+
+  .Home .skills > div .textDiv {
+    padding-right: 0;
+  }
+
+  .Home .skills > div .textDiv > div {
+    margin-right: 0;
+  }
+}

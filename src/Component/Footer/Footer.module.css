@@ -1,0 +1,62 @@
+.Footer {
+  padding: 5rem 0 2rem;
+  background-color: #0f0f0f;
+  position: relative;
+}
+
+.Footer .footerSection {
+  max-width: 950px;
+  margin: auto;
+  color: #7c8085;
+}
+
+.Footer .upArrow {
+  cursor: pointer;
+  font-size: 2.3rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #7c8085;
+  color: white;
+  border-radius: 100%;
+  transition: background-color 0.4s;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  font-size: 2.5rem;
+}
+
+.Footer .upArrow i {
+  margin: auto;
+  transform: translate(0, -0.1rem);
+}
+
+.Footer .upArrow:hover {
+  background-color: #0f9095;
+}
+
+.Footer .mediaIconsDiv {
+  color: #535353;
+  font-size: 2.1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer .mediaIconsDiv a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 1.3rem;
+  transition: color 0.5s;
+}
+
+.Footer .mediaIconsDiv a:hover {
+  color: #a0a0a0;
+}
+
+.Footer p {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #9b9b9b;
+}
