@@ -11,6 +11,11 @@ const NavItem = (props) => {
         smooth={true}
         duration={1000}
         offset={props.offset}
+        onClick={() => {
+          if (props.setHide) {
+            props.setHide(true);
+          }
+        }}
       >
         {props.children}
       </Link>

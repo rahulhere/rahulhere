@@ -15,8 +15,16 @@ import transpoTaxi from "./../../Assets/images/transpo-taxi.jpg";
 import resumeImg from "./../../Assets/images/resume.jpg";
 import resume from "./../../Assets/Rahul Resume.pdf";
 import { Link } from "react-scroll";
+import { useMediaQuery } from "react-responsive";
+import { useState } from "react";
 
 const Home = () => {
+  let [numParticles, setParticles] = useState(40);
+  const isTabletMobile = useMediaQuery({ query: "(max-width: 760px)" });
+  if (!isTabletMobile && numParticles !== 40) {
+    setParticles(120);
+  }
+
   return (
     <div className={styles.Home}>
       <section id="home" className={styles.head}>
@@ -44,7 +52,12 @@ const Home = () => {
         >
           <i className="fas fa-angle-down"></i>
         </Link>
-        <ParticlesBg color="#ffffff" type="cobweb" bg={true} />
+        <ParticlesBg
+          num={numParticles}
+          color="#ffffff"
+          type="cobweb"
+          bg={true}
+        />
       </section>
 
       <section id="about" className={styles.aboutMe}>

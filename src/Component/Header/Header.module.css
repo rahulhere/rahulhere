@@ -1,5 +1,5 @@
 .Header {
-  background-color: rgba(0, 0, 0, 0.425);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 3rem;
   margin-bottom: -3rem;
   display: flex;
@@ -10,4 +10,29 @@
   position: sticky;
   top: 0;
   width: 100%;
+}
+
+.Header .icon {
+  background-color: orangered;
+  height: 3rem;
+  width: 3rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+@media (max-width: 760px) {
+  .Header {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .Header .navbar {
+    display: none;
+  }
+
+  .Header .icon {
+    display: flex;
+  }
 }

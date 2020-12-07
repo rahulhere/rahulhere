@@ -263,7 +263,7 @@
 .Home .projects {
   background-color: #ebeeee;
   padding-top: 4rem;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 .Home .projects h2 {
@@ -385,5 +385,60 @@
 
   .Home .skills > div .textDiv > div {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .Home .head h1 {
+    font-size: 3rem;
+  }
+
+  .Home .head h3 {
+    max-width: none;
+    margin: 0 2rem;
+  }
+
+  .Home .aboutMe {
+    padding: 4rem 1.5rem;
+  }
+
+  .Home .aboutMe .textDiv .contactResumeDiv {
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+  }
+
+  .Home .aboutMe .textDiv .contactResumeDiv .resume a {
+    margin: 2rem 0 1rem;
+  }
+
+  .Home .skills > div {
+    grid-template-columns: 1fr;
+  }
+
+  .Home .skills > div h2 {
+    margin: 1rem;
+  }
+
+  .Home .skills > div .textDiv > div {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .Home .projects .anchorDiv {
+    grid-template-columns: 1fr;
+  }
+
+  .Home .projects .textDiv {
+    overflow: hidden;
+  }
+
+  .Home .projects .textDiv h3 {
+    font-size: 1rem;
+  }
+
+  .Home .projects .textDiv p {
+    font-size: 0.7rem;
+    letter-spacing: 0.1px;
   }
 }

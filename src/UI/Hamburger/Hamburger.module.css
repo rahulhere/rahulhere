@@ -1,0 +1,33 @@
+.Hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22px;
+  height: 15px;
+  position: relative;
+  z-index: 500;
+}
+
+.Hamburger > div {
+  background-color: white;
+  border: 1px solid white;
+  width: 100%;
+  height: 0;
+  transition: transform 0.5s, opacity 0.2s;
+}
+
+.cross {
+  justify-content: center;
+}
+
+.cross > .first {
+  transform: rotate(45deg);
+}
+
+.cross > .middle {
+  opacity: 0;
+}
+
+.cross > .last {
+  transform: translateY(-4px) rotate(-45deg);
+}

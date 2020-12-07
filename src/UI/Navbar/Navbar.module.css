@@ -4,3 +4,30 @@
   display: flex;
   list-style: none;
 }
+
+.Navbar li {
+  margin: 0 1rem;
+}
+
+.Navbar li a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .Navbar ul {
+    flex-direction: column;
+  }
+
+  .Navbar li {
+    margin: 1rem 0;
+  }
+
+  .Navbar li a {
+    color: #444444;
+  }
+}

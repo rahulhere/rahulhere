@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className={styles.Footer}>
+    <footer id="footer" className={styles.Footer}>
       <div className={styles.footerSection}>
         <Link
           className={styles.upArrow}
@@ -13,7 +13,6 @@ const Footer = () => {
         >
           <i className="fas fa-angle-up"></i>
         </Link>
-
         <div className={styles.mediaIconsDiv}>
           <a
             target="_blank"

@@ -1,0 +1,42 @@
+.SideDrawer {
+  position: fixed;
+  top: 3.5rem;
+  right: 1rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 1rem 0 2rem;
+  width: 80%;
+  max-width: 450px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s, opacity 0.5s;
+  z-index: 110;
+  box-shadow: 0 0 10rem -5rem black;
+  border: 1px solid rgb(189, 189, 189);
+}
+
+.SideDrawer::-webkit-scrollbar {
+  width: 3px;
+}
+
+.SideDrawer::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hide {
+  transform: translateX(100vw);
+  opacity: 0;
+}
+
+.SideDrawer .hamburger {
+  position: fixed;
+  right: 1px;
+  top: 35px;
+}
+
+.SideDrawer .hamburger > div {
+  background-color: black;
+  border: 1px solid black;
+}
