@@ -273,8 +273,8 @@ export default function Index() {
           <div className={classes.homeSection}>
             <h2>Check out some of my works</h2>
             <div className={classes.anchorDiv}>
-              {projects.map((project) => (
-                <a target="_blank" rel="noreferrer" href={project.link}>
+              {projects.map((project, i) => (
+                <a target="_blank" rel="noreferrer" key={i} href={project.link}>
                   <div className={classes.mainDiv}>
                     <img src={project.img} alt={project.alt} />
                     <div className={classes.textDiv}>
