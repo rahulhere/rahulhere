@@ -1,9 +1,9 @@
-import styles from "./Navbar.module.css";
-import NavItem from "./NavItem/NavItem";
+import classes from "../../styles/Navbar.module.css";
+import NavItem from "./NavItem";
 
 const Navbar = (props) => {
   return (
-    <nav className={styles.Navbar}>
+    <nav className={classes.Navbar}>
       <ul>
         <NavItem setHide={props.setHide} link="home">
           home

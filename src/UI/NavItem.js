@@ -1,4 +1,4 @@
-import styles from "./NavItem.module.css";
+import styles from "../../styles/NavItem.module.css";
 import { Link } from "react-scroll";
 
 const NavItem = (props) => {

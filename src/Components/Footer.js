@@ -1,19 +1,19 @@
-import styles from "./Footer.module.css";
+import classes from "../../styles/Footer.module.css";
 import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer id="footer" className={styles.Footer}>
-      <div className={styles.footerSection}>
+    <footer id="footer" className={classes.Footer}>
+      <div className={classes.footerSection}>
         <Link
-          className={styles.upArrow}
+          className={classes.upArrow}
           to={"home"}
           smooth={true}
           duration={1000}
         >
           <i className="fas fa-angle-up"></i>
         </Link>
-        <div className={styles.mediaIconsDiv}>
+        <div className={classes.mediaIconsDiv}>
           <a
             target="_blank"
             rel="noreferrer"
