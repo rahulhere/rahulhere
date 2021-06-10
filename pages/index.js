@@ -133,11 +133,7 @@ export default function Index() {
                   <p>rahulsoni2303@outlook.com</p>
                 </div>
                 <div className={classes.resume}>
-                  <a
-                    href="/RahulSoni_Resume.pdf"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                  <a href="/rahulsoni.pdf" target="_blank" rel="noreferrer">
                     <CloudDownloadIcon /> Download Resume
                   </a>
                 </div>
@@ -174,7 +170,7 @@ export default function Index() {
                 <p className={classes.subHeading}>
                   Web Development Bootcamp Udemy Course
                 </p>
-                <span> • 2020</span>
+                <span> • 2018</span>
                 <p>
                   Professional developer best practices. Build fully-fledged
                   websites and web apps for startups or businesses with latest
@@ -188,7 +184,7 @@ export default function Index() {
                 <p className={classes.subHeading}>
                   React Complete Bootcamp Udemy Course
                 </p>
-                <span> • 2020</span>
+                <span> • 2019</span>
                 <p>
                   Dive in and learn React.js from scratch! Learn Reactjs, Hooks,
                   Redux, React Routing, Animations, Next.js and way more!
@@ -220,11 +216,8 @@ export default function Index() {
               <div>
                 <h3>Self-employed</h3>
                 <p className={classes.subHeading}>Freelancing</p>
-                <span> • September 2020 - Present</span>
-                <p>
-                  Searching for clients on Fiverr. I have also made a react
-                  website for my friend.
-                </p>
+                <span> • September 2019 - Present</span>
+                <p>Work for clients on fiver.</p>
               </div>
             </div>
           </div>
