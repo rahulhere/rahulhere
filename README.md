@@ -2,7 +2,7 @@
 
 ## I am **Rahul Soni**,
 
-A Web Developer with specialization in ReactJS (a front-end library)
+A MERN Stack Developer
 
 ### My skills:
 
@@ -10,6 +10,7 @@ A Web Developer with specialization in ReactJS (a front-end library)
 - CSS 3
 - Javascript
 - ReactJS
+- Redux
 - NextJS
 - Axios
 - NodeJS
@@ -20,8 +21,7 @@ A Web Developer with specialization in ReactJS (a front-end library)
 ### Tools That I Use:
 
 - VS Code (Editor)
-- Git Bash
-- Github
-- NPM
+- Git / Github
+- Atlassian Jira
+- Confluence
 - Postman
-- [Pixlr](https://pixlr.com/) (A website to edit images and download them)
