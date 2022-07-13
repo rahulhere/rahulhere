@@ -6,22 +6,19 @@ A MERN Stack Developer
 
 ### My skills:
 
-- HTML 5
-- CSS 3
+- HTML, CSS, 
 - Javascript
 - ReactJS
-- Redux
-- NextJS
-- Axios
-- NodeJS
-- ExpressJS
-- Mongoose
+- Redux, NextJS, ThreeJS, D3.js
+- NodeJS, ExpressJS
 - MongoDB
+- Python
+- Fastapi
 
 ### Tools That I Use:
 
 - VS Code (Editor)
-- Git / Github
+- Git / Github / Bitbucket
 - Atlassian Jira
 - Confluence
 - Postman
